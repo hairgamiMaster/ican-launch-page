@@ -1,0 +1,105 @@
+/*Fonts*/
+@font-face {
+  font-family: 'Merriweather-Bold';
+  src: url('../fonts/merriweather-bold-webfont.eot') format('eot');
+  src: url('../fonts/merriweather-bold-webfont.ttf') format('truetype');
+  src: url('../fonts/merriweather-bold-webfont.svg') format('svg');
+  src: url('../fonts/merriweather-bold-webfont.woff') format('woff');
+}
+
+//Convert fonts here: http://www.fontsquirrel.com/tools/webfont-generator
+
+//Fonts are listed Fontsize_Lineheight_letterspacing
+//Font size + leading / 2 = line-height
+.merriweather-bold-32_48_-20 {
+  font-family: 'Merriweather-Bold';
+  font-size: 32px;
+  letter-spacing: -0.02em;
+  line-height: 40px;
+}
+
+
+//mobile
+@media (max-width: 990px) {
+
+  .top-margin-10 { margin-top: 5px; }
+  .top-margin-20 { margin-top: 10px; }
+  .top-margin-40 { margin-top: 20px; }
+  .top-margin-60 { margin-top: 30px; }
+  .top-margin-80 { margin-top: 40px; }
+  .top-margin-100 { margin-top: 50px; }
+
+  .bottom-margin-20 { margin-bottom: 5px; }
+  .bottom-margin-40 { margin-bottom: 10px; }
+  .bottom-margin-60 { margin-bottom: 15px; }
+  .bottom-margin-80 { margin-bottom: 20px; }
+  .bottom-margin-100 { margin-bottom: 25px; }
+  .bottom-margin-120 { margin-bottom: 30px; }
+  .bottom-margin-140 { margin-bottom: 35px; }
+  .bottom-margin-160 { margin-bottom: 40px; }
+  .bottom-margin-180 { margin-bottom: 45px; }
+  .bottom-margin-200 { margin-bottom: 50px; }
+
+  .mobile-bottom-margin-20 { margin-bottom: 20px;}
+  .mobile-bottom-margin-40 { margin-bottom: 40px;}
+  .mobile-bottom-margin-60 { margin-bottom: 60px;}
+  .mobile-bottom-margin-80 { margin-bottom: 80px;}
+  .mobile-bottom-margin-100 { margin-bottom: 100px;}
+}
+
+
+//desktop
+@media (min-width: 991px){
+
+
+
+  .top-margin-10 { margin-top: 10px; }
+  .top-margin-20 { margin-top: 20px; }
+  .top-margin-40 { margin-top: 40px; }
+  .top-margin-60 { margin-top: 60px; }
+  .top-margin-80 { margin-top: 80px; }
+  .top-margin-100 { margin-top: 100px; }
+
+  .bottom-margin-20 { margin-bottom: 20px; }
+  .bottom-margin-40 { margin-bottom: 40px; }
+  .bottom-margin-60 { margin-bottom: 60px; }
+  .bottom-margin-80 { margin-bottom: 80px; }
+  .bottom-margin-100 { margin-bottom: 100px; }
+  .bottom-margin-120 { margin-bottom: 120px; }
+  .bottom-margin-140 { margin-bottom: 140px; }
+  .bottom-margin-160 { margin-bottom: 160px; }
+  .bottom-margin-180 { margin-bottom: 180px; }
+  .bottom-margin-200 { margin-bottom: 200px; }
+
+  .narrow-col-100 { padding-left: 100px; padding-right: 100px; }
+  .narrow-col-120 { padding-left: 120px; padding-right: 120px; }
+  .narrow-col-140 { padding-left: 140px; padding-right: 140px; }
+  .narrow-col-160 { padding-left: 160px; padding-right: 160px; }
+  .narrow-col-180 { padding-left: 180px; padding-right: 180px; }
+  .narrow-col-200 { padding-left: 200px; padding-right: 200px; }
+  .narrow-col-220 { padding-left: 220px; padding-right: 220px; }
+  .narrow-col-240 { padding-left: 240px; padding-right: 240px; }
+  .narrow-col-260 { padding-left: 260px; padding-right: 260px; }
+  .narrow-col-280 { padding-left: 280px; padding-right: 280px; }
+  .narrow-col-300 { padding-left: 300px; padding-right: 300px; }
+  .narrow-col-320 { padding-left: 320px; padding-right: 320px; }
+  .narrow-col-340 { padding-left: 340px; padding-right: 340px; }
+  .narrow-col-360 { padding-left: 360px; padding-right: 360px; }
+  .narrow-col-380 { padding-left: 380px; padding-right: 380px; }
+
+  .full-width { padding-left: 0px; padding-right: 0px; }
+}
+
+
+/* centered columns styles */
+.row-centered {
+  text-align:center;
+}
+.col-centered {
+  display:inline-block;
+  float:none;
+  /* reset the text-align */
+  text-align:left;
+  /* inline-block space fix */
+  margin-right:-4px;
+}
